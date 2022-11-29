@@ -1,6 +1,6 @@
 ---
 presets:
-- name: forex_rares_all
+- name: forex_rates_all
   filter:
     - left: name
       operation: nempty
