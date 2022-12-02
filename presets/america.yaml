@@ -851,7 +851,7 @@ presets:
     sortOrder: desc
   options:
     active_symbols_only: true
-- name: market-sectors
+- name: market_sectors
   filter:
       - left: description
         operation: nempty
@@ -862,7 +862,7 @@ presets:
   sort:
     sortBy: description
     sortOrder: asc
-- name: market-industries
+- name: market_industries
   filter:
     - left: description
       operation: nempty
