@@ -364,7 +364,7 @@ presets:
     - foreign-issuer
   - left: net_income
     operation: egreater
-    right: 300000000
+    right: 3000000000
   - left: is_primary
     operation: equal
     right: true
