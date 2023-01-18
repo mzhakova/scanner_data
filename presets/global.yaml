@@ -349,7 +349,7 @@ presets:
   - vietnam
 - name: worlds_highest_earnings
   filter:
-  - left: gross_profit
+  - left: net_income
     operation: nempty
   - left: type
     operation: in_range
@@ -362,7 +362,7 @@ presets:
     - ''
     - common
     - foreign-issuer
-  - left: gross_profit
+  - left: net_income
     operation: greater
     right: 4000000000
   - left: is_primary
@@ -371,7 +371,7 @@ presets:
   options:
     active_symbols_only: true
   sort:
-    sortBy: gross_profit
+    sortBy: net_income
     sortOrder: desc
   price_conversion:
     to_currency: USD
