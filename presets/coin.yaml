@@ -11,7 +11,7 @@ presets:
     right: defi
   - left: tvl
     operation: egreater
-    right: 1000000
+    right: 1
   sort:
     sortBy: tvl
     sortOrder: desc
@@ -58,4 +58,15 @@ presets:
 - name: coin_most_expensive
   sort:
     sortBy: close
+    sortOrder: desc
+- name: coin_total_value_locked
+  filter:
+  - left: crypto_categories
+    operation: has
+    right: defi
+  - left: tvl
+    operation: egreater
+    right: 1
+  sort:
+    sortBy: tvl
     sortOrder: desc
